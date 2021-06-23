@@ -1,0 +1,15 @@
+---
+application:
+  name: "nodys"
+  project: "rady"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "nody_db"
+  version: "8.0"
+routers:
+- name: "main-nodys"
+  routes:
+  - application_name: "nodys"
+    paths:
+    - "/*"
