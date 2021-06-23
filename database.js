@@ -3,9 +3,9 @@ const {createPool} = require('mysql');
 
 
 const db = createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'nody-db-kjwl5thrafwroaij-svc.qovery.io',
+    user: 'superuser',
+    password: 'mifBZHO3nIT9nqup',
     database: 'nody_db',
     connectionLimit: 10
 });
